@@ -1,0 +1,110 @@
+/* estilos globales*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #303030;
+}
+
+main{
+    background-color: rgb(99, 99, 99);
+}
+
+footer{
+    background-color: #303030;
+    padding: 105px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+}
+
+img{
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 5px mediumorchid;
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+/* estilos header*/
+
+.container-list-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.list-nav-hover:hover {
+    color: #c2c2c2;
+}
+
+.flex-container-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    animation: zoomIn;
+    animation-duration: 2s;
+}
+
+.reserv-now-button {
+    color: #000;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reserv-now-button:hover {
+    background-color: #b9b9b9;
+    color: rgb(255, 255, 255);
+}
+
+.instagram-logo-header{
+    font-size: 30px;
+}
+
+.instagram-logo-header:hover{
+    color: #c2c2c2;
+}
+/* estilos footer*/
+
+div.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.link-footer {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+}
+
+.instagram-logo-footer {
+    margin-top: 20px;
+    font-size: 30px
+}
+
+.instagram-logo-footer:hover{
+    color: #c2c2c2;
+}

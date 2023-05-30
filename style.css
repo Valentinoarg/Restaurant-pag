@@ -1,0 +1,238 @@
+/* estilos globales*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    line-height: 1.3;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 60px 30px;
+    margin: 0px 0px 20px;
+    animation: zoomIn;
+    animation-duration: 2s;
+}
+
+/* estilos header*/
+
+div.botonera {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(./Imagenes/ImgHeaderNav.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1,
+.text-header {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container-list-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.list-nav-hover:hover {
+    color: #c2c2c2;
+}
+
+.instagram-logo-header {
+    font-size: 25px;
+}
+
+.instagram-logo-header:hover {
+    color: #c2c2c2;
+}
+
+.reserv-now-button {
+    color: #000;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reserv-now-button:hover {
+    background-color: #b9b9b9;
+    color: rgb(255, 255, 255);
+}
+
+.text-header {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.leer-mas-header {
+    text-align: center;
+    color: #000;
+    background-color: white;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 10px;
+    transition: transform .2s;
+}
+
+.leer-mas-header:hover {
+    transform: scale(1.3);
+}
+
+div.flecha {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-header {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    transition: transform .2s;
+}
+
+.arrow-header:hover{
+    transform: scale(1.2);
+}
+
+/* estilos main*/
+.contenedor-main {
+    display: flex;
+    align-items: center;
+}
+
+.conteiner-animate-whatsapp{
+    position: relative;
+}
+
+.animate-logo-whatsapp{
+    width: 60px;
+    position: fixed;
+    left: 92%;
+    bottom: 35px;
+    animation: bounceInRight;
+    animation-duration: 3.5s;
+}
+
+.text-galery {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    gap: 40px;
+}
+
+.text-galery,
+.text-menu,
+.text-perfil {
+    color: rgb(80, 79, 79);
+    font-size: 25px;
+}
+
+.img-galery {
+    width: 40%;
+}
+
+.buttom-visit {
+    background-color: rgb(60, 61, 61);
+    font-size: 15px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.buttom-visit:hover {
+    box-shadow: 0px 0px 22px 6px rgba(255, 255, 255, 0.29) inset;
+}
+
+.contenedor-menu {
+    background-color: rgb(90, 90, 90);
+}
+
+.text-menu {
+    color: white;
+    margin-right: 20px;
+}
+
+.contenedor-body,
+.text-main-menu {
+    background-color: gray;
+    color: #eee;
+}
+
+.button-menu {
+    left: 710px;
+    bottom: 135px;
+    background-color: rgb(60, 61, 61);
+    padding: 20px;
+}
+
+/* estilos footer*/
+
+.contenedor-footer {
+    background-color: rgb(80, 80, 80);
+}
+
+div.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.link-footer {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+}
+
+.instagram-logo-footer {
+    margin-top: 22px;
+    font-size: 25px
+}
+
+.instagram-logo-footer:hover {
+    color: #c2c2c2;
+}
