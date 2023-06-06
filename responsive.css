@@ -1,0 +1,64 @@
+/* estilos globales*/
+@import url("./style.css");
+
+.menuCelular {
+    display: none;
+}
+
+/* tablet*/
+@media (max-width: 1024px) {
+
+    /* globales*/
+    /* header */
+    .menuCelular {
+        display: block;
+        color: white;
+    }
+
+    .menuEscritorio {
+        display: none;
+    }
+
+    /* galeria */
+    .contenedor-main {
+        flex-direction: column-reverse;
+    }
+
+    .contenedor-main img {
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+    }
+
+    .text-galery {
+        width: 90% !important;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/* celular*/
+@media (max-width: 700px) {
+    
+    h1{
+        margin-left: 20px;
+    }
+
+    .arrow-header{
+        font-size: 30px;
+    }
+    
+    .animate-logo-whatsapp {
+        left: 86%;
+        bottom: 35px
+    }
+
+    .link-footer {
+        font-size: 20px;
+    }
+
+    div.footer-info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
